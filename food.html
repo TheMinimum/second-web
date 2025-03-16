@@ -3,37 +3,17 @@
     <head>
       <meta charset ="UTF-8">
       <title>좋아하는 음식</title>
-      <style>
-        body{
-          margin:2;
-        }
-        a{
-          color : black;
-          text-decoration: none;
-        }
-        .saw{
-          color : gray;
-        }
-        .active {
-          color : red;
-        }
-        h1 {
-          font-size:45px;
-          text-align:center;
-          border-bottom : 1px solid gray;
-          margin : 0;
-          padding : 20px;
-        }
-        
-      </style>
+      <link rel = "stylesheet" href = "style.css">
     </head>
     <body>
-        <h1><a href = "index.html">자기소개</a></h1>
-        <ol>
-          <li><a href = "hobby.html" class = "saw">나의 취미</a></li>
-          <li><a href = "food.html" class = "saw active">좋아하는 음식</a></li>
-          <li><a href = "sing.html">좋아하는 노래</a></li>
-        </ol>
+      <h1><a href = "index.html">자기소개</a></h1>
+      <div id = "grid">
+      <ol class = line>
+        <li><a href = "hobby.html">나의 취미</a></li>
+        <li><a href = "food.html">좋아하는 음식</a></li>
+        <li><a href = "sing.html">좋아하는 노래</a></li>
+      </ol>
+      <div id = article>
       <h2>음식</h2>
       <p>
         <ol>
@@ -42,5 +22,7 @@
             <li>연어덮밥</li> <img src = "https://i.ytimg.com/vi/ysmb1xRXvhs/maxresdefault.jpg" width = "300"> <br>
         </ol>
       </p>
+       </div>
+      </div>
     </body>
 </html>
